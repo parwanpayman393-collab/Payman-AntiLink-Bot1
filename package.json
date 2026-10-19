@@ -1,9 +1,13 @@
 {
-  "name": "payman-anti-link-bot",
-  "version": "1.0.0",
-  "description": "WhatsApp anti-link bot",
-  "main": "bot.js",
-  "scripts": {
-    "start": "node bot.js"
-  }
+"name": "payman-anti-link-bot",
+"version": "1.0.0",
+"description": "WhatsApp anti-link bot",
+"main": "bot.js",
+"scripts": {
+"start": "node bot.js"
+},
+"dependencies": {
+"whatsapp-web.js": "^1.26.0",
+"qrcode-terminal": "^0.12.0"
+}
 }
